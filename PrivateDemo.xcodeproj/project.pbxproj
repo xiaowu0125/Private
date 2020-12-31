@@ -18,6 +18,7 @@
 		62A616C1259DBC0D004501F7 /* PrivateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616C0259DBC0D004501F7 /* PrivateDemoTests.m */; };
 		62A616CC259DBC0D004501F7 /* PrivateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616CB259DBC0D004501F7 /* PrivateDemoUITests.m */; };
 		62A616E3259DBCA0004501F7 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616E2259DBC9F004501F7 /* People.m */; };
+		62A61732259DBF8A004501F7 /* CTMediator+private.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A61731259DBF8A004501F7 /* CTMediator+private.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		62A616CD259DBC0D004501F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62A616E1259DBC9F004501F7 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		62A616E2259DBC9F004501F7 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		62A61730259DBF8A004501F7 /* CTMediator+private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+private.h"; sourceTree = "<group>"; };
+		62A61731259DBF8A004501F7 /* CTMediator+private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+private.m"; sourceTree = "<group>"; };
 		CB35C3E127B7362E069048E8 /* Pods_PrivateDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF180899214ED31BA1F76029 /* Pods-PrivateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateDemo.debug.xcconfig"; path = "Target Support Files/Pods-PrivateDemo/Pods-PrivateDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +156,8 @@
 			children = (
 				62A616E1259DBC9F004501F7 /* People.h */,
 				62A616E2259DBC9F004501F7 /* People.m */,
+				62A61730259DBF8A004501F7 /* CTMediator+private.h */,
+				62A61731259DBF8A004501F7 /* CTMediator+private.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				62A6169D259DBC0C004501F7 /* Sources */,
 				62A6169E259DBC0C004501F7 /* Frameworks */,
 				62A6169F259DBC0C004501F7 /* Resources */,
+				C16D8CAE642550E508F581B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +328,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C16D8CAE642550E508F581B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrivateDemo/Pods-PrivateDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrivateDemo/Pods-PrivateDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrivateDemo/Pods-PrivateDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -332,6 +355,7 @@
 				62A616AC259DBC0C004501F7 /* ViewController.m in Sources */,
 				62A616A6259DBC0C004501F7 /* AppDelegate.m in Sources */,
 				62A616E3259DBCA0004501F7 /* People.m in Sources */,
+				62A61732259DBF8A004501F7 /* CTMediator+private.m in Sources */,
 				62A616B7259DBC0D004501F7 /* main.m in Sources */,
 				62A616A9259DBC0C004501F7 /* SceneDelegate.m in Sources */,
 			);
