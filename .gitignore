@@ -1,0 +1,6 @@
+PrivateDemo.xcodeproj/xcuserdata/
+PrivateDemo.xcworkspace/
+Pods/
+*.swp
+.DS_Store
+PrivateDemo.xcodeproj/project.xcworkspace/xcuserdata/

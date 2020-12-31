@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53EEDD7CDB1CDE00DFF5A463 /* Pods_PrivateDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB35C3E127B7362E069048E8 /* Pods_PrivateDemo.framework */; };
 		62A616A6259DBC0C004501F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616A5259DBC0C004501F7 /* AppDelegate.m */; };
 		62A616A9259DBC0C004501F7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616A8259DBC0C004501F7 /* SceneDelegate.m */; };
 		62A616AC259DBC0C004501F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616AB259DBC0C004501F7 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		62A616B7259DBC0D004501F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616B6259DBC0D004501F7 /* main.m */; };
 		62A616C1259DBC0D004501F7 /* PrivateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616C0259DBC0D004501F7 /* PrivateDemoTests.m */; };
 		62A616CC259DBC0D004501F7 /* PrivateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616CB259DBC0D004501F7 /* PrivateDemoUITests.m */; };
+		62A616E3259DBCA0004501F7 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A616E2259DBC9F004501F7 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000F43D83DF5980F2BE2109D /* Pods-PrivateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateDemo.release.xcconfig"; path = "Target Support Files/Pods-PrivateDemo/Pods-PrivateDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62A616A1259DBC0C004501F7 /* PrivateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A616A4259DBC0C004501F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62A616A5259DBC0C004501F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,10 @@
 		62A616C7259DBC0D004501F7 /* PrivateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A616CB259DBC0D004501F7 /* PrivateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateDemoUITests.m; sourceTree = "<group>"; };
 		62A616CD259DBC0D004501F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A616E1259DBC9F004501F7 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		62A616E2259DBC9F004501F7 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		CB35C3E127B7362E069048E8 /* Pods_PrivateDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF180899214ED31BA1F76029 /* Pods-PrivateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateDemo.debug.xcconfig"; path = "Target Support Files/Pods-PrivateDemo/Pods-PrivateDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EEDD7CDB1CDE00DFF5A463 /* Pods_PrivateDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +96,8 @@
 				62A616BF259DBC0D004501F7 /* PrivateDemoTests */,
 				62A616CA259DBC0D004501F7 /* PrivateDemoUITests */,
 				62A616A2259DBC0C004501F7 /* Products */,
+				72D008E69D69D172CA4A03B9 /* Pods */,
+				FD28816DCB4652D09263EC82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +114,7 @@
 		62A616A3259DBC0C004501F7 /* PrivateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				62A616E0259DBC95004501F7 /* Category */,
 				62A616A4259DBC0C004501F7 /* AppDelegate.h */,
 				62A616A5259DBC0C004501F7 /* AppDelegate.m */,
 				62A616A7259DBC0C004501F7 /* SceneDelegate.h */,
@@ -137,6 +148,32 @@
 			path = PrivateDemoUITests;
 			sourceTree = "<group>";
 		};
+		62A616E0259DBC95004501F7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				62A616E1259DBC9F004501F7 /* People.h */,
+				62A616E2259DBC9F004501F7 /* People.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		72D008E69D69D172CA4A03B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF180899214ED31BA1F76029 /* Pods-PrivateDemo.debug.xcconfig */,
+				000F43D83DF5980F2BE2109D /* Pods-PrivateDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD28816DCB4652D09263EC82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB35C3E127B7362E069048E8 /* Pods_PrivateDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62A616D0259DBC0D004501F7 /* Build configuration list for PBXNativeTarget "PrivateDemo" */;
 			buildPhases = (
+				71310B0FD91B965B7E966D7A /* [CP] Check Pods Manifest.lock */,
 				62A6169D259DBC0C004501F7 /* Sources */,
 				62A6169E259DBC0C004501F7 /* Frameworks */,
 				62A6169F259DBC0C004501F7 /* Resources */,
@@ -261,6 +299,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71310B0FD91B965B7E966D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62A6169D259DBC0C004501F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +331,7 @@
 			files = (
 				62A616AC259DBC0C004501F7 /* ViewController.m in Sources */,
 				62A616A6259DBC0C004501F7 /* AppDelegate.m in Sources */,
+				62A616E3259DBCA0004501F7 /* People.m in Sources */,
 				62A616B7259DBC0D004501F7 /* main.m in Sources */,
 				62A616A9259DBC0C004501F7 /* SceneDelegate.m in Sources */,
 			);
@@ -438,6 +502,7 @@
 		};
 		62A616D1259DBC0D004501F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF180899214ED31BA1F76029 /* Pods-PrivateDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +520,7 @@
 		};
 		62A616D2259DBC0D004501F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000F43D83DF5980F2BE2109D /* Pods-PrivateDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
