@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 0
+# version.develop = 1
 # version.test = 0
 # version.gray = 0
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PrivateDemo"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "PrivateDemo."
 
   # This description is used to generate tags and improve search results.
